@@ -1,0 +1,24 @@
+{
+  "name": "completed-email-counts",
+  "version": "1.0.0",
+  "description": "app for returning completed sign-ups to geckoboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halicopter/completed-email-counts.git"
+  },
+  "author": "Hali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halicopter/completed-email-counts/issues"
+  },
+  "homepage": "https://github.com/halicopter/completed-email-counts#readme",
+  "dependencies": {
+    "express": "^4.13.1",
+    "pg": "^4.4.0"
+  }
+}
