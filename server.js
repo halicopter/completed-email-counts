@@ -32,7 +32,6 @@ client.connect(function(err) {
             	]
           	};
         	res.send(JSON.stringify(payload));
-			client.end();
 		});
     });
 	app.listen(app.get('port'), function() {
