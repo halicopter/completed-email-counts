@@ -4,11 +4,11 @@ var pg = require('pg');
 var app = require('express')();
 
 var client = new pg.Client({
-  user: "xgqflynipwwdac",
-  password: "5yPk0uWTw7-mEkRCMyz5r9_2Aw",
-  database: "deop7op8cmtodc",
+  user: process.env.USERNAME,
+  password: process.env.PASSWORD,
+  database: process.env.DATABASE,
   port: 5432,
-  host: "ec2-107-20-223-116.compute-1.amazonaws.com",
+  host: process.env.HOST,
   ssl: true
 });
 
